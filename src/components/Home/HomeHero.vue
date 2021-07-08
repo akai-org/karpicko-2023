@@ -1,17 +1,17 @@
 <template>
   <div id="hero">
-    <v-parallax dark src="@/assets/other/stary_rynek.jpg" height="750">
+    <v-parallax dark src="@/assets/karpicko_2018_sm.jpg" height="750">
       <v-row align="center" justify="center" class="mt-n12">
         <v-col class="text-center" cols="12">
           <v-img
-            src="@/assets/other/FUT_poznan.png"
+            src="@/assets/other/Karpicko_White_Logo_2020.png"
             contain
             max-height="300"
           ></v-img>
           <h2 class="display-0 font-weight-thin mb-4">
-            Forum Uczelni Technicznych - Poznań 2020
+            Obóz Integracyjno - Szkoleniowy Karpicko 2021
           </h2>
-          <h3 class="subheading">Zapraszamy!</h3>
+          <h3 class="subheading">Zapisy</h3>
         </v-col>
       </v-row>
     </v-parallax>

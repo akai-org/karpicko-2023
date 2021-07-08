@@ -17,9 +17,9 @@
           <v-img
             alt="fut-name"
             contain
-            min-width="100"
-            src="@/assets/other/FUT_white.png"
-            width="200"
+            min-width="10"
+            src="@/assets/other/logo_sspp_white_narrow.png"
+            width="90"
           />
         </v-btn>
       </div>
@@ -48,9 +48,9 @@
             <v-img
               alt="Fut-name"
               contain
-              min-width="100"
-              src="@/assets/other/FUT_white.png"
-              width="200"
+              min-width="10"
+              src="@/assets/other/logo_sspp_white_narrow.png"
+              width="90"
             />
           </div>
         </v-list-item>
@@ -71,28 +71,35 @@
 <script>
 export default {
   name: "Navbar",
+  mounted() {
+    /*window.onscroll = () => {
+      this.changeColor();
+    };*/
+  },
   data() {
     return {
-      appTitle: "FUT Poznan",
+      appTitle: "Karpicko 2021",
       drawer: false,
-      navbarColor: "transparent",
+      navbarColor: "primary",
       navbarElevation: 0,
-      main: { title: "FUT Poznan", id: "#hero" },
+      main: { title: "Karpicko 2021", id: "#hero" },
       items: [
-        { title: "Zaproszenie", id: "#invitation" },
-        { title: "Rejestracja", id: "#registration" },
-        { title: "O nas", id: "#about" },
-        { title: "Harmonogram", id: "#agenda" },
+        { title: "Rekrutacja", id: "#invitation"  },
+        { title: "Atrakcje", id: "#agenda" },
         { title: "Zakwaterowanie", id: "#accommodation" },
-        { title: "Kontakt", id: "#contact" },
-        { title: "Partnerzy", id: "#partners" }
+        { title: "Partnerzy", id: "#partners" },
+        { title: "Regulamin", id: "#rule" },
+        { title: "Kontakt", id: "#contact" }
+      ],
+      pages: [
+        { title: "Kadra", url: "#/kadra" }
       ]
     };
   },
-  mounted() {
-    window.onscroll = () => {
-      this.changeColor();
-    };
+  computed: {
+    currentRouteName() {
+      return this.$route.path;
+    }
   },
   methods: {
     changeColor() {
