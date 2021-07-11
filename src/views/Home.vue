@@ -1,13 +1,15 @@
 <template>
-	<div class="home">
-		<home-hero />
-		<invitation />
-		<registration />
-		<about />
-		<accommodation />
-		<contact />
-		<partners />
-	</div>
+  <div class="home">
+    <home-hero />
+    <invitation />
+    <info />
+    <registration />
+    <about />
+    <accommodation />
+    <contact />
+    <opinions />
+    <partners />
+  </div>
 </template>
 
 <script>
@@ -19,17 +21,21 @@ import Accommodation from '@/components/Home/accommodation/Accommodation';
 import Contact from '@/components/Home/contact/Contact';
 import About from '@/components/Home/about/About';
 import Partners from '@/components/Home/partners/Partners';
+import Info from '@/components/Home/info/Info.vue';
+import Opinions from '@/components/Home/opinions/Opinions.vue';
 
 export default {
-	name: 'Home',
-	components: {
-		Partners,
-		Contact,
-		About,
-		Accommodation,
-		Registration,
-		Invitation,
-		HomeHero,
-	},
+  name: 'Home',
+  components: {
+    Partners,
+    Contact,
+    About,
+    Accommodation,
+    Registration,
+    Invitation,
+    HomeHero,
+    Info,
+    Opinions,
+  },
 };
 </script>

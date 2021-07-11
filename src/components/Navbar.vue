@@ -121,6 +121,7 @@ export default {
         { title: 'Koordynatorzy', id: '#contact' },
         { title: 'Partnerzy', id: '#partners' },
         { title: 'Kontakt', id: '#contact' },
+        { title: 'Opinie', id: '#opinions' },
       ],
       pages: [
         { title: 'Kadra', url: '#/kadra' },
