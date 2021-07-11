@@ -1,9 +1,9 @@
 <template>
-  <crew />
+	<crew />
 </template>
 <script>
-import Crew from "../components/Crew/crew/Crew";
+import Crew from '../components/Crew/Crew';
 export default {
-  components: { Crew }
+	components: { Crew },
 };
 </script>

@@ -1,52 +1,36 @@
 <template>
-  <div id="contact">
-    <v-container fluid>
-      <component-title text="Koordynatorzy" />
-      <v-row class="mt-10" align="start" justify="center">
-        <coordinator-card
-          :title="bartosz.title"
-          :text="bartosz.text"
-          :avatar="bartosz.avatar"
-        />
-        <coordinator-card
-          :title="coordinator.title"
-          :text="coordinator.text"
-          :avatar="coordinator.avatar"
-        />
-      </v-row>
-    </v-container>
-  </div>
+	<div id="contact">
+		<v-container>
+			<component-title text="Kontakt" />
+			<component-text
+				class="mt-8"
+				text="Aby się skontaktować użyj poniższego formularza"
+			/>
+			<v-row align="center" justify="center">
+				<v-col cols="11" lg="7" md="9">
+					<v-btn
+						href="https://forms.gle/3wwxvp7uWQGncXyf7"
+						target="_blank"
+						x-large
+						outlined
+						rounded
+						class="text-button"
+						color="primary"
+					>
+						Skontaktuj się
+					</v-btn>
+				</v-col>
+			</v-row>
+		</v-container>
+	</div>
 </template>
 
 <script>
-import CoordinatorCard from "@/components/Home/contact/CoordinatorCard";
-import ComponentTitle from "@/components/general/ComponentTitle";
-
+import ComponentText from '@/components/ComponentText';
+import ComponentTitle from '@/components/ComponentTitle';
 export default {
-  name: "Contact",
-  components: { ComponentTitle, CoordinatorCard },
-  data() {
-    return {
-      bartosz: {
-        title: "Bartosz Cieślewicz",
-        text: {
-          email: "bartek123@somemail.com",
-          phone: "+48 213 769 666",
-          faculty: "WIiT"
-        },
-        avatar: "Bartek_C.jpg"
-      },
-      coordinator: {
-        title: "Bartosz Cieślewicz",
-        text: {
-          email: "bartek123@somemail.com",
-          phone: "+48 213 769 666",
-          faculty: "WIiT"
-        },
-        avatar: "Bartek_C.jpg"
-      }
-    };
-  }
+	name: 'Contact',
+	components: { ComponentTitle, ComponentText },
 };
 </script>
 
