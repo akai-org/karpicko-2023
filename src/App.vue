@@ -1,11 +1,11 @@
 <template>
-	<v-app>
-		<navbar />
-		<v-content>
-			<router-view />
-		</v-content>
-		<karpicko-footer />
-	</v-app>
+  <v-app>
+    <navbar />
+    <v-main>
+      <router-view />
+    </v-main>
+    <karpicko-footer />
+  </v-app>
 </template>
 
 <style></style>
@@ -13,6 +13,6 @@
 import Navbar from '@/components/Navbar';
 import KarpickoFooter from '@/components/KarpickoFooter';
 export default {
-	components: { KarpickoFooter, Navbar },
+  components: { KarpickoFooter, Navbar },
 };
 </script>

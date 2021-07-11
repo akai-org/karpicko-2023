@@ -25,11 +25,7 @@
               </h2>
             </v-col>
             <v-col cols="12" xl="6" lg="6" md="6" sm="7">
-              <v-img
-                src="@/assets/about/pp.jpg"
-                max-height="500"
-                max-width="500"
-              />
+              <polaroid-image src="about/pp.jpg" description="Test" />
             </v-col>
           </v-row>
         </v-col>
@@ -39,10 +35,12 @@
 </template>
 
 <script>
-import ComponentTitle from "@/components/general/ComponentTitle";
+import ComponentTitle from '@/components/general/ComponentTitle';
+import PolaroidImage from '@/components/general/PolaroidImage';
+
 export default {
-  name: "About",
-  components: { ComponentTitle }
+  name: 'About',
+  components: { ComponentTitle, PolaroidImage },
 };
 </script>
 

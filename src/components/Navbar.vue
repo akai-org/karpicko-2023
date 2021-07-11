@@ -136,7 +136,6 @@ export default {
   },
   methods: {
     changeColor() {
-      console.log(this.currentRouteName);
       if (
         this.currentRouteName != '/' ||
         document.body.scrollTop > 85 ||

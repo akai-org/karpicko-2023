@@ -6,12 +6,11 @@
           <v-img
             src="@/assets/other/Karpicko_White_Logo_2020.png"
             contain
-            max-height="300"
+            max-height="400"
           ></v-img>
-          <h2 class="display-0 font-weight-thin mb-4">
+          <h2 class="display-0 font-weight-thin">
             Obóz Integracyjno - Szkoleniowy Karpicko 2021
           </h2>
-          <h3 class="subheading">Zapisy</h3>
         </v-col>
       </v-row>
     </v-parallax>
@@ -20,7 +19,7 @@
 
 <script>
 export default {
-  name: "HomeHero"
+  name: 'HomeHero',
 };
 </script>
 

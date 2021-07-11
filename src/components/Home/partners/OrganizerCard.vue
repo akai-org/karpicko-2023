@@ -1,5 +1,5 @@
 <template>
-  <v-card class="elevation-0 transparent">
+  <v-card class="elevation-0 transparent justify-center text-center">
     <v-card-text class="text-xs-center hidden-xs-only">
       <img :src="require(`@/assets/partners/${src}`)" height="200" />
     </v-card-text>
@@ -11,10 +11,10 @@
 
 <script>
 export default {
-  name: "OrganizerCard",
+  name: 'OrganizerCard',
   props: {
-    src: String
-  }
+    src: String,
+  },
 };
 </script>
 
