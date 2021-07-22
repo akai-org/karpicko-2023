@@ -6,9 +6,10 @@
     <registration />
     <about />
     <accommodation />
-    <contact />
     <opinions />
     <partners />
+    <contact />
+
   </div>
 </template>
 
@@ -34,8 +35,8 @@ export default {
     Registration,
     Invitation,
     HomeHero,
-    Info,
     Opinions,
+    Info,
   },
 };
 </script>

@@ -36,29 +36,94 @@ export default {
     return {
       crew: [
         {
-          name: 'Szymon Bujanowski',
-          faculty: 'WARiE',
-          avatar: 'Szymon.jpg',
-        },
-        {
-          name: 'Wojciech Charoński',
-          faculty: 'WARiE',
-          avatar: 'Wojtek_Ch.jpg',
-        },
-        {
-          name: 'Bartosz Cieślewicz',
-          faculty: 'WIiT',
-          avatar: 'Bartek_C.jpg',
-        },
-        {
           name: 'Natalia Fedko',
           faculty: 'WA',
           avatar: 'Natalka.jpg',
         },
         {
-          name: 'Wojciech Gindera',
-          faculty: 'WIŚiE',
-          avatar: 'Wojtek_G.jpg',
+          name: 'Hubert Ziętowski',
+          faculty: 'WARiE',
+          avatar: 'Hipis.jpg',
+        },
+        {
+          name: 'Laura Strojna',
+          faculty: 'WARiE',
+          avatar: 'Laura.jpg',
+        },
+        {
+          name: 'Szymon Bujanowski',
+          faculty: 'WARiE',
+          avatar: '',
+        },
+        {
+          name: 'Witold Rozumek',
+          faculty: 'WARiE',
+          avatar: 'Wiciu.jpg',
+        },
+        {
+          name: 'Bartosz Cieślewicz',
+          faculty: 'WIiT',
+          avatar: '',
+        },
+        {
+          name: 'Kornelia Kostrzewska',
+          faculty: 'WIiT',
+          avatar: 'Kornelia.jpg',
+        },
+        {
+          name: 'Martyna Kurz',
+          faculty: 'WIiT',
+          avatar: '',
+        },
+        {
+          name: 'Bartosz Kruczyński',
+          faculty: 'WILiT',
+          avatar: 'Bartosz_K.jpg',
+        },
+        {
+          name: 'Daria Wstawska',
+          faculty: 'WILiT',
+          avatar: '',
+        },
+        {
+          name: 'Katarzyna Chmielewska',
+          faculty: 'WILiT',
+          avatar: '',
+        },
+        {
+          name: 'Mikołaj Gemzicki',
+          faculty: 'WILiT',
+          avatar: '',
+        },
+        {
+          name: 'Ula Sadowska',
+          faculty: 'WILiT',
+          avatar: '',
+        },
+        {
+          name: 'Aleksandra Stróżyk',
+          faculty: 'WIM',
+          avatar: 'Olcia.jpg',
+        },
+        {
+          name: 'Magdalena Kubiak',
+          faculty: 'WIM',
+          avatar: 'Magda_K.jpg',
+        },
+        {
+          name: 'Magdalena Wojtczak',
+          faculty: 'WIM',
+          avatar: 'Magda_W.jpg',
+        },
+        {
+          name: 'Martyna Maćkowiak',
+          faculty: 'WIM',
+          avatar: 'Martynka.jpg',
+        },
+        {
+          name: 'Paweł Dzięcioł',
+          faculty: 'WIM',
+          avatar: 'Dzieciol.jpg',
         },
         {
           name: 'Patryk Ginter',
@@ -66,104 +131,44 @@ export default {
           avatar: '',
         },
         {
-          name: 'Marta Kocurek',
-          faculty: 'WTCh',
-          avatar: 'Kocurek.jpg',
+          name: 'Marcin Sylka',
+          faculty: 'WIMiFT',
+          avatar: 'Rychu.jpg',
         },
         {
-          name: 'Bartosz Kruczyński',
-          faculty: 'WILiT',
-          avatar: 'Bartek_K1.jpg',
-        },
-        {
-          name: 'Klaudia Kulińska',
-          faculty: 'WIM',
-          avatar: 'Klaudia_K.jpg',
-        },
-        {
-          name: 'Eliza Kurkowiak',
-          faculty: 'WIM',
-          avatar: 'Eliza.jpg',
-        },
-        {
-          name: 'Martyna Kurz',
-          faculty: 'WIiT',
-          avatar: 'Kurz.jpeg',
+          name: 'Wojciech Gindera',
+          faculty: 'WIŚiE',
+          avatar: 'Gindera.jpg',
         },
         {
           name: 'Dagmara Maćkowiak',
           faculty: 'WIZ',
-          avatar: 'Dagmara.jpg',
-        },
-        {
-          name: 'Marek Mocny',
-          faculty: 'WILiT',
-          avatar: 'Marek.jpg',
-        },
-        {
-          name: 'Daniel Mokrzan',
-          faculty: 'WILiT',
-          avatar: 'Daniel_M.jpg',
-        },
-        {
-          name: 'Oskar Napierała',
-          faculty: 'WIM',
-          avatar: 'Oskar.jpg',
-        },
-        {
-          name: 'Marta Orlikowska',
-          faculty: 'WIŚiE',
-          avatar: 'Marta_O.jpg',
-        },
-        {
-          name: 'Mateusz Ostrowski',
-          faculty: 'WIiT',
-          avatar: 'Mateusz.jpg',
-        },
-        {
-          name: 'Grzegorz Otworowski',
-          faculty: 'WIiT',
-          avatar: 'Grzesiu.jpg',
-        },
-        {
-          name: 'Agata Pawlik',
-          faculty: 'WTCh',
           avatar: '',
-        },
-        {
-          name: 'Julia Rogacka',
-          faculty: 'WA',
-          avatar: 'Julka.jpeg',
-        },
-        {
-          name: 'Jędrzej Smolarkiewicz',
-          faculty: 'WARiE',
-          avatar: 'Jedrzej.jpg',
-        },
-        {
-          name: 'Aleksandra Stróżyk',
-          faculty: 'WIM',
-          avatar: 'Ola_S.jpeg',
-        },
-        {
-          name: 'Barbara Winiarczyk',
-          faculty: 'WIMiFT',
-          avatar: 'Basia.jpg',
-        },
-        {
-          name: 'Piotr Woźniak',
-          faculty: 'WILiT',
-          avatar: 'Piotr.jpg',
-        },
-        {
-          name: 'Karolina Zapadka',
-          faculty: 'WILiT',
-          avatar: 'Karolina.jpg',
         },
         {
           name: 'Maria Zienkiewicz',
           faculty: 'WIZ',
-          avatar: 'Maria.jpg',
+          avatar: '',
+        },
+        {
+          name: 'Karolina Ławniczak',
+          faculty: 'WIZ',
+          avatar: '',
+        },
+        {
+          name: 'Marta Kocurek',
+          faculty: 'WTCh',
+          avatar: '',
+        },
+        {
+          name: 'Weronika Frankiewicz',
+          faculty: 'WTCh',
+          avatar: 'Werka.jpg',
+        },
+        {
+          name: 'Wiktoria Stachowicz',
+          faculty: 'WTCh',
+          avatar: '',
         },
       ],
     };

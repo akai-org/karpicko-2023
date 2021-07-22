@@ -97,6 +97,30 @@ export default {
             'pełno emocji, pełno śmiechu, pełno zabawy i pierwsze niezapomniane studenckie przeżycie"',
           name: '- Aleksandra Baumgart',
         },
+        {
+          src: 'Mikolaj.jpg',
+          quote:
+            '"Karpicko to niezwykły czas byłem zarówno uczestnikiem jak i opiekunem. Poznałem tam wielu niesamowitych ludzi"',
+          name: '- Mikołaj Gemzicki',
+        },
+        {
+          src: 'Natalia.jpg',
+          quote:
+            '"Naaaajlepszy wyjazd na jakim byłam! Mnóstwo śmiechu, mnóstwo zabawy, mnóstwo nowych ludzi, z którymi nadal się trzymam. Dało to potężnego kopa (również do Samorządowania)  jeszcze przed studiami, mogłam poznać z czym się to je, dlatego wracam na Karpicko już trzeci raz - już jako kadra!"',
+          name: '- Natalia Fedko',
+        },
+        {
+          src: 'Wiktoria.jpg',
+          quote:
+            '"Karpicko dało mi możliwość poznania świetnych ludzi! Z niektórymi trzymam się bliżej do dzisiaj lub współpracujemy razem w ramach Samorządu. Była to na pewno niezapomniana przygoda, sami się o tym przekonacie!"',
+          name: '- Wiktoria Stachowicz',
+        },
+        {
+          src: 'Wojtek.jpg',
+          quote:
+            '"Z perspektywy czasu nie wyobrażam sobie lepszego rozpoczęcia studiów. Karpicko pozwoliło poznać mi niesamowitych ludzi. To nie jest zwykły wyjazd, to jest stan umysłu. Gdybym miał okazję pojechać jeszcze raz jako uczestnik nie zastanawiałbym się w ogóle."',
+          name: '- Wojciech Gindera',
+        },
       ],
     };
   },

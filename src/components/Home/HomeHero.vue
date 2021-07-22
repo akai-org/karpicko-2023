@@ -1,15 +1,15 @@
 <template>
   <div id="hero">
-    <v-parallax dark src="@/assets/karpicko_2018_sm.jpg" height="750">
+    <v-parallax dark src="@/assets/Karpicko_tlo_2021_v3.png" height="750" style="top:2px;">
       <v-row align="center" justify="center" class="mt-n12">
         <v-col class="text-center" cols="12">
           <v-img
-            src="@/assets/other/Karpicko_White_Logo_2020.png"
+            src="@/assets/other/Karpicko_White_Logo_2021.png"
             contain
             max-height="400"
           ></v-img>
-          <h2 class="display-0 font-weight-thin">
-            Obóz Integracyjno - Szkoleniowy Karpicko 2021
+          <h2 class="display-0">
+            Zapisy wkrótce!
           </h2>
         </v-col>
       </v-row>

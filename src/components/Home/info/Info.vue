@@ -2,48 +2,56 @@
   <div id="info" class="mt-4 mb-11">
     <v-container fluid>
       <v-row align="center" justify="center">
-        <v-col cols="11" lg="7" md="9">
-          <h2
-            class="text-sm-h5 text-md-h5 text-lg-h5 text-xl-h5 text-subtitle-1 headline"
-          >
-            <b>Obóz Integracyjno-Szkoleniowy “Karpicko”</b> to adapciak dla
-            przyszłych studentów Politechniki Poznańskiej, który w najlepszy
-            sposób przygotuje Was do wejście w nowy etap życia - studia. To
-            przede wszystkim pięć dni szkoleń, warsztatów, a także zajęć i
-            imprez integracyjnych oraz wielu innych atrakcji. Wszystko
-            zorganizowane dla studentów od studentów - czyli przez Samorząd
-            Studentów Politechniki Poznańskiej.
-          </h2>
-          <br />
-          <h2
-            class="text-sm-h5 text-md-h5 text-lg-h5 text-xl-h5 text-subtitle-1 headline"
-          >
-            Kiedy? <b>Od 21 do 25 września 2020r.</b>
-          </h2>
-          <h2
-            class="text-sm-h5 text-md-h5 text-lg-h5 text-xl-h5 text-subtitle-1 headline"
-          >
-            Gdzie? <b>Na Kampusie Warta Politechniki Poznańskiej</b>
-          </h2>
-          <h2
-            class="text-sm-h5 text-md-h5 text-lg-h5 text-xl-h5 text-subtitle-1 headline"
-          >
-            Z kim? <b>Z Samorządem i nowymi znajomymi z Uczelni</b>
-          </h2>
-          <h2
-            class="text-sm-h5 text-md-h5 text-lg-h5 text-xl-h5 text-subtitle-1 headline"
-          >
-            Dlaczego? <b>Żeby w najlepszy sposób rozpocząć studia!</b>
-          </h2>
-        </v-col>
+
+        <info-card
+          :icon="card1.icon"
+          :text="card1.text"
+          :title="card1.title"
+        />
+        <info-card
+          :icon="card2.icon"
+          :text="card2.text"
+          :title="card2.title"
+        />
+        <info-card
+          :icon="card3.icon"
+          :text="card3.text"
+          :title="card3.title"
+        />
+
       </v-row>
     </v-container>
   </div>
 </template>
 
 <script>
+import InfoCard from '@/components/Home/info/InfoCard';
 export default {
+  // eslint-disable-next-line vue/no-unused-components
+  components: { InfoCard },
   name: 'Info',
+  data() {
+    return {
+      card1: {
+        title: 'Kiedy?',
+        text:
+          'Od 6 do 11 września 2021r.',
+        icon: 'icon_calendar.svg'
+      },
+      card2: {
+        title: 'Gdzie?',
+        text:
+          'W ośrodku wypoczynkowym "Jelonek" w Karpicku niedaleko Wolsztyna',
+        icon: 'map-location.svg'
+      },
+      card3: {
+        title: 'Dlaczego?',
+        text:
+          'Karpicko to najlepszy sposób na rozpoczęcie studenckiej przygody!',
+        icon: 'info.svg'
+      }
+    };
+  }
 };
 </script>
 

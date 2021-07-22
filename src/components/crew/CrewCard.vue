@@ -30,8 +30,8 @@ export default {
   props: {
     name: String,
     faculty: String,
-    avatar: String,
-  },
+    avatar: String
+  }
 };
 </script>
 

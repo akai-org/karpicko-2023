@@ -2,8 +2,8 @@
 	<crew />
 </template>
 <script>
-import Crew from '../components/Crew/Crew';
+import Crew from '@/components/crew/Crew';
 export default {
-	components: { Crew },
+  components: { Crew },
 };
 </script>

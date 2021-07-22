@@ -39,50 +39,34 @@
 </template>
 
 <script>
-import OrganizerCard from "@/components/Home/partners/OrganizerCard";
-import ComponentTitle from "@/components/general/ComponentTitle";
-import PartnerCard from "@/components/Home/partners/PartnerCard";
+import OrganizerCard from '@/components/Home/partners/OrganizerCard';
+import ComponentTitle from '@/components/general/ComponentTitle';
+import PartnerCard from '@/components/Home/partners/PartnerCard';
 export default {
-  name: "Partners",
+  name: 'Partners',
   components: { PartnerCard, ComponentTitle, OrganizerCard },
   data() {
     return {
       organizerList: [
         {
-          src: "pp.png"
+          src: 'pp.png'
         },
         {
-          src: "logo_sspp_black_narrow.png"
+          src: 'logo_sspp_black_narrow.png'
         }
       ],
       partnerList: [
         {
-          src: "pp.png"
+          src: 'pils.png'
         },
         {
-          src: "pp.png"
+          src: 'fajowo.png'
         },
         {
-          src: "pp.png"
+          src: 'fortuna.jpg'
         },
-        {
-          src: "pp.png"
-        },
-        {
-          src: "pp.png"
-        },
-        {
-          src: "pp.png"
-        },
-        {
-          src: "pp.png"
-        },
-        {
-          src: "pp.png"
-        },
-        {
-          src: "pp.png"
-        }
+
+
       ]
     };
   }

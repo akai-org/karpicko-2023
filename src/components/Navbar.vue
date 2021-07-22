@@ -116,16 +116,15 @@ export default {
       mainpage: { title: 'Strona główna', url: '#/' },
       items: [
         { title: 'Rekrutacja', id: '#invitation' },
-        { title: 'O nas', id: '#about' },
+        { title: 'Atrakcje', id: '#about' },
         { title: 'Zakwaterowanie', id: '#accommodation' },
-        { title: 'Koordynatorzy', id: '#contact' },
+        { title: 'Opinie', id: '#opinions' },
         { title: 'Partnerzy', id: '#partners' },
         { title: 'Kontakt', id: '#contact' },
-        { title: 'Opinie', id: '#opinions' },
       ],
       pages: [
         { title: 'Kadra', url: '#/kadra' },
-        { title: 'Regulamin', url: '/rules/Regulamin-Karpicko-2020.pdf' },
+      //  { title: 'Regulamin', url: '/rules/Regulamin-Karpicko-2020.pdf' },
       ],
     };
   },
