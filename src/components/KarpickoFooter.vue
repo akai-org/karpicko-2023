@@ -24,9 +24,47 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        <a href="public/rules/Regulamin-Karpicko-2020.pdf" style="color: white;">Regulamin</a> |
-        <a href="public/rules/Regulamin-Karpicko-2020.pdf" style="color: white;">Zasady Bezpieczeństwa</a> |
-        <a href="public/rules/Regulamin-Karpicko-2020.pdf" style="color: white;">Polityka Prywatności</a>
+        <!--<a href="public/rules/Regulamin_Karpicko_2021.pdf" target="_blank" style="color: white;" download>Regulamin</a> |
+        <a href="public/rules/Zasady_bezpieczenstwa.pdf" target="_blank" style="color: white;" download>Zasady Bezpieczeństwa</a> |
+        <a href="public/rules/Polityka_prywatnosci.pdf"  target="_blank" style="color: white;" download>Polityka Prywatności</a>-->
+
+        <v-row align="center" justify="center">
+          <v-btn
+            download
+            href="/rules/Regulamin_Karpicko_2021.pdf"
+            outlined
+
+            color="warning"
+            x-large
+            class="mt-4 text-button"
+          >
+            Regulamin
+          </v-btn>
+
+          <v-btn
+            download
+            href="/rules/Zasady_bezpieczenstwa.pdf"
+            outlined
+            color="warning"
+            x-large
+            class="mt-4 text-button"
+          >
+            Zasady bezpieczeństwa
+          </v-btn>
+
+          <v-btn
+            download
+            href="/rules/Polityka_prywatnosci.pdf"
+            outlined
+            color="warning"
+            x-large
+            class="mt-4 text-button"
+          >
+            Polityka Prywatności
+          </v-btn>
+        </v-row>
+
+
       </v-card-text>
 
 

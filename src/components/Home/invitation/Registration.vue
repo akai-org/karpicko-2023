@@ -11,13 +11,13 @@
             width="525"
             color="primary"
             class="font-weight-bold display-1"
-            href=""
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeND9jAc0E4iZt-7b3h8FkW1GwIwZUlZvtVLPQ30PDH4cOy2w/viewform"
             target="_blank"
           >
-            Rejestracja już wkrótce!
-            <!--<v-icon class="ml-5" size="40" right
+            Rejestracja
+            <v-icon class="ml-5" size="40" right
               >fas fa-long-arrow-alt-right</v-icon
-            >-->
+            >
           </v-btn>
         </v-col>
       </v-row>

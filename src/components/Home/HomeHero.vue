@@ -9,7 +9,7 @@
             max-height="400"
           ></v-img>
           <h2 class="display-0">
-            Zapisy wkrótce!
+            Zapisy rozpoczęte!
           </h2>
         </v-col>
       </v-row>
