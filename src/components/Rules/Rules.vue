@@ -4,7 +4,7 @@
       <component-title text="Regulamin" />
       <v-row align="center" justify="center">
         <v-btn
-          href="/rules/Regulamin-Karpicko-2020.pdf"
+          href="/rules/Regulamin_Karpicko_2021.docx"
           download
           outlined
           rounded
@@ -18,7 +18,7 @@
       <v-row align="center" justify="center">
         <v-btn
           download
-          href="/rules/Zasady_bezpieczeństwa.pdf"
+          href="/rules/Zasady_bezpieczeństwa.docx"
           outlined
           rounded
           color="primary"
