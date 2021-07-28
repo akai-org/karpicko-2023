@@ -1,9 +1,9 @@
 <template>
   <div id="accommodation">
     <v-container fluid>
-      <component-title text="Zakwaterowanie" />
+      <component-title text="Zakwaterowanie" class="mb-10 mt-10" />
       <v-row justify="center" align="center">
-        <v-col cols="11" lg="7" md="9">
+        <v-col cols="11" lg="8" md="9">
           <v-row justify="center" align="center">
             <v-col
               cols="12"
@@ -16,12 +16,19 @@
               <h2
                 class="text-sm-h5 text-md-h5 text-lg-h5 text-xl-h5 text-subtitle-1 headline text-center"
               >
-                Zakwaterowani będziecie w czteroosobowych domkach w Karpicku, niedaleko Jeziora Wolsztyńskiego, nad którym również przygotowane są atrakcje. Dla tych, którzy kochają naturę znajdą się miejsca na rozłożenie kocyka na trawie. Natomiast Ci którzy cenią sobie wygodne miejsce do integracji z nowopoznanymi znajomymi, mogą zrelaksować się w strefie chillu.
-
+                Zakwaterowani będziecie w czteroosobowych domkach w Karpicku,
+                niedaleko Jeziora Wolsztyńskiego, nad którym również
+                przygotowane są atrakcje. Dla tych, którzy kochają naturę znajdą
+                się miejsca na rozłożenie kocyka na trawie. Natomiast Ci którzy
+                cenią sobie wygodne miejsce do integracji z nowopoznanymi
+                znajomymi, mogą zrelaksować się w strefie chillu.
               </h2>
             </v-col>
-            <v-col cols="12" xl="6" lg="6" md="6" sm="7">
-              <polaroid-image src="karpicko_2019_sm.jpg" description="Karpicko 2019" />
+            <v-col cols="12" xl="5" lg="6" md="6" sm="7" offset-xl="1">
+              <polaroid-image
+                src="karpicko_2019_sm.jpg"
+                description="Karpicko 2019"
+              />
             </v-col>
           </v-row>
         </v-col>

@@ -1,7 +1,7 @@
 <template>
-  <div id="contact">
+  <div id="contact" class="mb-15">
     <v-container>
-      <component-title text="Kontakt" />
+      <component-title text="Kontakt" class="mb-5 mt-10" />
 
       <component-text
         class="mt-8 text-center"

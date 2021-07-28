@@ -33,9 +33,9 @@
 </template>
 
 <script>
-import ComponentTitle from "@/components/ComponentTitle";
+import ComponentTitle from '@/components/ComponentTitle';
 export default {
-  name: "Rules",
+  name: 'Rules',
   components: { ComponentTitle },
 };
 </script>

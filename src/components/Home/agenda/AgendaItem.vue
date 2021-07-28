@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "AgendaItem",
+  name: 'AgendaItem',
   props: {
     title: String,
     dayAgenda: Array

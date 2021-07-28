@@ -1,7 +1,7 @@
 <template>
   <div id="invitation">
-    <v-container fluid>
-      <component-title :text="invitation_title" />
+    <v-container fluid class="mb-5">
+      <component-title :text="invitation_title" class="mb-5 mt-5" />
       <component-text :text="invitation_text" />
       <v-row align="start" class="mt-10" justify="center">
         <invitation-card
@@ -20,7 +20,7 @@
           :title="card3.title"
         />
       </v-row>
-      <component-title :text="invitation_title2" />
+      <component-title :text="invitation_title2" class=" mt-5" />
       <component-text :text="invitation_text2" />
     </v-container>
   </div>
@@ -44,25 +44,26 @@ export default {
         title: 'Jedyna taka okazja!',
         text:
           'Czy wiesz, że na Karpicko możesz zapisać się tylko jeden raz? Na samym obozie będą tylko studenci, którzy po raz pierwszy rekrutują się na naszą politechnikę! Jest to niepowtarzalna okazja by poznać znajomości na lata!',
-        icon: 'stopwatch.svg'
+        icon: 'stopwatch_dark.svg',
       },
       card2: {
         title: 'Nowe znajomości',
         text:
           'Będziecie mieli możliwość poznać zarówno innych pierwszorocznych studentów, którzy tak jak Wy po raz pierwszy przekraczają mury Uczelni, ale także starszych kolegów z Samorządu Studentów, którzy wprowadzą Was w tajniki życia studenckiego. ',
-        icon: 'users.svg'
+        icon: 'users_dark.svg',
       },
       card3: {
         title: 'Niezapomniane chwile',
         text:
           'Chwile na Karpicku pozostaną na lata! Najlepsze wspomnienia, których z zazdrością będą wysłuchiwać osoby, które nie zdecydowały się pojechać na obóz. Sięgnij z nami po dozę wrażeń oraz nowych przyjaźni. Nie może Cię zabraknąć!\n',
-        icon: 'hourglass.svg'
+        icon: 'hourglass_dark.svg',
       },
       invitation_title2: 'Zapraszamy!',
-      invitation_text2: 'Drodzy Studenci Pierwszego Roku! Jest nam szalenie miło zaprosić was do uczestnictwa' +
-        ' w obozie Integracyjno-Szkoleniowym "Karpicko" dla pierwszorocznych studentów Politechniki Poznańskiej, który planowany jest na wrzesień 2021!'
+      invitation_text2:
+        'Drodzy Studenci Pierwszego Roku! Jest nam szalenie miło zaprosić was do uczestnictwa' +
+        ' w obozie Integracyjno-Szkoleniowym "Karpicko" dla pierwszorocznych studentów Politechniki Poznańskiej, który planowany jest na wrzesień 2021!',
     };
-  }
+  },
 };
 </script>
 

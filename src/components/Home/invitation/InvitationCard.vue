@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: "InvitationCard",
+  name: 'InvitationCard',
   props: {
     title: String,
     text: String,

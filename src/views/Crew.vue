@@ -1,5 +1,5 @@
 <template>
-	<crew />
+  <crew />
 </template>
 <script>
 import Crew from '@/components/crew/Crew';

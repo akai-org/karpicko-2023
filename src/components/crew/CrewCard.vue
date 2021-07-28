@@ -9,7 +9,7 @@
         />
         <img
           v-else
-          :src="require(`@/assets/other/question.png`)"
+          :src="require(`@/assets/other/question_dark.png`)"
           class="text-center justify-center"
         />
       </v-avatar>
@@ -30,8 +30,8 @@ export default {
   props: {
     name: String,
     faculty: String,
-    avatar: String
-  }
+    avatar: String,
+  },
 };
 </script>
 

@@ -88,7 +88,7 @@
         </v-list-item>
         <v-list-item v-for="page in pages" :key="page.url" :href="page.url">
           <v-list-item-content>
-            <v-list-item-title class="text-button">
+            <v-list-item-title>
               {{ page.title }}
             </v-list-item-title>
           </v-list-item-content>
@@ -124,7 +124,7 @@ export default {
       ],
       pages: [
         { title: 'Kadra', url: '#/kadra' },
-      //  { title: 'Regulamin', url: '/rules/Regulamin-Karpicko-2020.pdf' },
+        //  { title: 'Regulamin', url: '/rules/Regulamin-Karpicko-2020.pdf' },
       ],
     };
   },

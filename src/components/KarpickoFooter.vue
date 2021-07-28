@@ -28,15 +28,12 @@
         <a href="public/rules/Zasady_bezpieczenstwa.pdf" target="_blank" style="color: white;" download>Zasady Bezpieczeństwa</a> |
         <a href="public/rules/Polityka_prywatnosci.pdf"  target="_blank" style="color: white;" download>Polityka Prywatności</a>-->
 
-        <v-row align="center" justify="center">
+        <v-row align="center" justify="center" class="mt-1">
           <v-btn
             download
             href="/rules/Regulamin_Karpicko_2021.pdf"
-            outlined
-
-            color="warning"
-            x-large
-            class="mt-4 text-button"
+            class=" text-button"
+            plain
           >
             Regulamin
           </v-btn>
@@ -44,10 +41,8 @@
           <v-btn
             download
             href="/rules/Zasady_bezpieczenstwa.pdf"
-            outlined
-            color="warning"
-            x-large
-            class="mt-4 text-button"
+            class="text-button"
+            plain
           >
             Zasady bezpieczeństwa
           </v-btn>
@@ -55,18 +50,13 @@
           <v-btn
             download
             href="/rules/Polityka_prywatnosci.pdf"
-            outlined
-            color="warning"
-            x-large
-            class="mt-4 text-button"
+            class="text-button"
+            plain
           >
             Polityka Prywatności
           </v-btn>
         </v-row>
-
-
       </v-card-text>
-
 
       <v-divider></v-divider>
 
@@ -85,19 +75,18 @@ export default {
     icons: [
       {
         fa: 'fab fa-facebook',
-        url:
-          'https://www.facebook.com/events/140145264887833'
+        url: 'https://www.facebook.com/events/140145264887833',
       },
       {
         fa: 'fab fa-instagram',
-        url: 'https://www.instagram.com/samorzadpp/'
+        url: 'https://www.instagram.com/samorzadpp/',
       },
       {
         fa: 'fas fa-envelope',
-        url: 'mailto:samorzad@samorzad.put.poznan.pl'
-      }
-    ]
-  })
+        url: 'mailto:samorzad@samorzad.put.poznan.pl',
+      },
+    ],
+  }),
 };
 </script>
 

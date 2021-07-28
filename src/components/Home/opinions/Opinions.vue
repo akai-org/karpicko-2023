@@ -1,9 +1,9 @@
 <template>
   <div id="opinions">
     <v-container fluid>
-      <component-title text="Opinie" />
+      <component-title text="Opinie" class="mb-5 mt-10" />
 
-      <v-row justify="center" align="center mb-10">
+      <v-row justify="center" align="center">
         <v-col cols="12" lg="7" md="9" class="hidden-sm-and-down">
           <v-carousel
             cycle
@@ -23,7 +23,7 @@
           </v-carousel>
         </v-col>
         <v-col cols="12" class="hidden-md-and-up">
-          <v-carousel cycle show-arrows-on-hover hide-delimiters height="650">
+          <v-carousel cycle show-arrows-on-hover hide-delimiters height="500">
             <v-carousel-item v-for="(slide, index) in opinionList" :key="index">
               <opinion-item-sm-and-down
                 :src="slide.src"

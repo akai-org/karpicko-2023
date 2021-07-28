@@ -25,59 +25,59 @@
 </template>
 
 <script>
-import AgendaItem from "./AgendaItem";
-import ComponentTitle from "@/components/general/ComponentTitle";
+import AgendaItem from './AgendaItem';
+import ComponentTitle from '@/components/general/ComponentTitle';
 export default {
-  name: "Agenda",
+  name: 'Agenda',
   components: { ComponentTitle, AgendaItem },
   data() {
     return {
       days: [
         {
-          title: "Czwartek",
+          title: 'Czwartek',
           dayAgenda: [
             {
-              time: "8.00 - 10.00",
-              name: "Śniadanie"
+              time: '8.00 - 10.00',
+              name: 'Śniadanie'
             },
             {
-              time: "14.00 - 16.00",
-              name: "Obiad"
+              time: '14.00 - 16.00',
+              name: 'Obiad'
             },
             {
-              time: "21.00 - 23.00",
-              name: "Kolacja"
+              time: '21.00 - 23.00',
+              name: 'Kolacja'
             }
           ]
         },
         {
-          title: "Piątek",
+          title: 'Piątek',
           dayAgenda: [
             {
-              time: "8.00 - 10.00",
-              name: "Śniadanie"
+              time: '8.00 - 10.00',
+              name: 'Śniadanie'
             },
             {
-              time: "10.00 - 20.00",
-              name: "Lorem ipsum dolor sit amet"
+              time: '10.00 - 20.00',
+              name: 'Lorem ipsum dolor sit amet'
             }
           ]
         },
         {
-          title: "Sobota",
+          title: 'Sobota',
           dayAgenda: [
             {
-              time: "8.00 - 10.00",
-              name: "Śniadanie"
+              time: '8.00 - 10.00',
+              name: 'Śniadanie'
             }
           ]
         },
         {
-          title: "Niedziela",
+          title: 'Niedziela',
           dayAgenda: [
             {
-              time: "8.00 - 10.00",
-              name: "Śniadanie"
+              time: '8.00 - 10.00',
+              name: 'Śniadanie'
             }
           ]
         }

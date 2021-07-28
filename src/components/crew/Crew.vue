@@ -53,7 +53,7 @@ export default {
         {
           name: 'Szymon Bujanowski',
           faculty: 'WARiE',
-          avatar: '',
+          avatar: 'Bujanowski.jpg',
         },
         {
           name: 'Witold Rozumek',
@@ -83,17 +83,17 @@ export default {
         {
           name: 'Daria Wstawska',
           faculty: 'WILiT',
-          avatar: '',
+          avatar: 'Wstawska.jpg',
         },
         {
           name: 'Katarzyna Chmielewska',
           faculty: 'WILiT',
-          avatar: '',
+          avatar: 'Chmielewska.jpg',
         },
         {
           name: 'Mikołaj Gemzicki',
           faculty: 'WILiT',
-          avatar: '',
+          avatar: 'Gemzicki.jpg',
         },
         {
           name: 'Ula Sadowska',
@@ -128,7 +128,7 @@ export default {
         {
           name: 'Patryk Ginter',
           faculty: 'WIMiFT',
-          avatar: '',
+          avatar: 'Ginter.jpg',
         },
         {
           name: 'Marcin Sylka',
@@ -143,7 +143,7 @@ export default {
         {
           name: 'Dagmara Maćkowiak',
           faculty: 'WIZ',
-          avatar: '',
+          avatar: 'Mackowiak.jpg',
         },
         {
           name: 'Maria Zienkiewicz',

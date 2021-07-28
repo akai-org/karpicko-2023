@@ -1,7 +1,7 @@
 <template>
   <div id="partners">
-    <v-container fluid>
-      <component-title text="Organizatorzy i Partnerzy" />
+    <v-container fluid class="mb-10">
+      <component-title text="Organizatorzy i Partnerzy" class=" mt-10" />
       <v-row class="mt-10" align="start" justify="center" no-gutters>
         <v-col cols="12" lg="10" md="10">
           <v-row class="mt-10" align="start" justify="center" no-gutters>
@@ -49,27 +49,25 @@ export default {
     return {
       organizerList: [
         {
-          src: 'pp.png'
+          src: 'pp.png',
         },
         {
-          src: 'logo_sspp_black_narrow.png'
-        }
+          src: 'logo_sspp_black_narrow.png',
+        },
       ],
       partnerList: [
         {
-          src: 'pils.png'
+          src: 'pils.png',
         },
         {
-          src: 'fajowo.png'
+          src: 'fajowo.png',
         },
         {
-          src: 'fortuna.jpg'
+          src: 'fortuna.jpg',
         },
-
-
-      ]
+      ],
     };
-  }
+  },
 };
 </script>
 

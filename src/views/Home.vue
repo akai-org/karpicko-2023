@@ -7,9 +7,8 @@
     <about />
     <accommodation />
     <opinions />
-    <partners />
     <contact />
-
+    <partners />
   </div>
 </template>
 
