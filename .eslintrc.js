@@ -8,8 +8,10 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
+  parser: 'vue-eslint-parser',
   parserOptions: {
-    ecmaVersion: 2018,
+    parser: 'babel-eslint',
+    ecmaVersion: 8,
     sourceType: 'module',
   },
   plugins: ['vue'],

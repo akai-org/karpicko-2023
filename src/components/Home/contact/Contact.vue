@@ -3,10 +3,7 @@
     <v-container>
       <component-title text="Kontakt" class="mb-5 mt-10" />
 
-      <component-text
-        class="mt-8 text-center"
-        text="Aby się z nami skontaktować użyj poniższego formularza"
-      />
+      <component-text class="mt-8 text-center" :text="contactByForm" />
 
       <v-row align="center" justify="center">
         <v-col cols="11" lg="7" md="9" class="justify-center text-center">
@@ -18,8 +15,9 @@
             rounded
             class="text-button"
             color="primary"
+            type="link"
           >
-            Skontaktuj się z nami
+            {{ contactUs }}
           </v-btn>
         </v-col>
       </v-row>
@@ -28,14 +26,20 @@
 </template>
 
 <script>
-import ComponentText from '@/components/general/ComponentText';
+import ComponentText from '@/components/shared/ComponentText';
 
-import ComponentTitle from '@/components/general/ComponentTitle';
+import ComponentTitle from '@/components/shared/ComponentTitle';
 
 export default {
   name: 'Contact',
 
   components: { ComponentTitle, ComponentText },
+  data() {
+    return {
+      contactUs: 'Skontaktuj się z nami',
+      contactByForm: 'Aby się z nami skontaktować użyj poniższego formularza',
+    };
+  },
 };
 </script>
 

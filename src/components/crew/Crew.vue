@@ -1,6 +1,6 @@
 <template>
   <div id="crew">
-    <v-container fluid>
+    <v-container fluid class="mb-10">
       <component-title text="Kadra" />
       <v-row class="mt-10" align="start" justify="center" no-gutters>
         <v-col cols="12" lg="10" md="10">
@@ -28,7 +28,7 @@
 
 <script>
 import CrewCard from './CrewCard';
-import ComponentTitle from '@/components/general/ComponentTitle';
+import ComponentTitle from '@/components/shared/ComponentTitle';
 export default {
   name: 'Crew',
   components: { ComponentTitle, CrewCard },
@@ -63,7 +63,7 @@ export default {
         {
           name: 'Bartosz Cieślewicz',
           faculty: 'WIiT',
-          avatar: '',
+          avatar: 'Bartek_C.jpg',
         },
         {
           name: 'Kornelia Kostrzewska',
@@ -73,7 +73,7 @@ export default {
         {
           name: 'Martyna Kurz',
           faculty: 'WIiT',
-          avatar: '',
+          avatar: 'Kurz.jpg',
         },
         {
           name: 'Bartosz Kruczyński',
@@ -98,7 +98,7 @@ export default {
         {
           name: 'Ula Sadowska',
           faculty: 'WILiT',
-          avatar: '',
+          avatar: 'Ula.jpg',
         },
         {
           name: 'Aleksandra Stróżyk',
@@ -148,7 +148,7 @@ export default {
         {
           name: 'Maria Zienkiewicz',
           faculty: 'WIZ',
-          avatar: '',
+          avatar: 'Maria.jpg',
         },
         {
           name: 'Karolina Ławniczak',
@@ -158,7 +158,7 @@ export default {
         {
           name: 'Marta Kocurek',
           faculty: 'WTCh',
-          avatar: '',
+          avatar: 'Marta.jpg',
         },
         {
           name: 'Weronika Frankiewicz',
@@ -168,7 +168,7 @@ export default {
         {
           name: 'Wiktoria Stachowicz',
           faculty: 'WTCh',
-          avatar: '',
+          avatar: 'Wiktoria.jpg',
         },
       ],
     };

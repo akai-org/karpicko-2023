@@ -26,7 +26,7 @@
 
 <script>
 import AgendaItem from './AgendaItem';
-import ComponentTitle from '@/components/general/ComponentTitle';
+import ComponentTitle from '@/components/shared/ComponentTitle';
 export default {
   name: 'Agenda',
   components: { ComponentTitle, AgendaItem },
@@ -38,52 +38,52 @@ export default {
           dayAgenda: [
             {
               time: '8.00 - 10.00',
-              name: 'Śniadanie'
+              name: 'Śniadanie',
             },
             {
               time: '14.00 - 16.00',
-              name: 'Obiad'
+              name: 'Obiad',
             },
             {
               time: '21.00 - 23.00',
-              name: 'Kolacja'
-            }
-          ]
+              name: 'Kolacja',
+            },
+          ],
         },
         {
           title: 'Piątek',
           dayAgenda: [
             {
               time: '8.00 - 10.00',
-              name: 'Śniadanie'
+              name: 'Śniadanie',
             },
             {
               time: '10.00 - 20.00',
-              name: 'Lorem ipsum dolor sit amet'
-            }
-          ]
+              name: 'Lorem ipsum dolor sit amet',
+            },
+          ],
         },
         {
           title: 'Sobota',
           dayAgenda: [
             {
               time: '8.00 - 10.00',
-              name: 'Śniadanie'
-            }
-          ]
+              name: 'Śniadanie',
+            },
+          ],
         },
         {
           title: 'Niedziela',
           dayAgenda: [
             {
               time: '8.00 - 10.00',
-              name: 'Śniadanie'
-            }
-          ]
-        }
-      ]
+              name: 'Śniadanie',
+            },
+          ],
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

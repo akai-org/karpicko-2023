@@ -4,36 +4,34 @@
       <component-title :text="invitation_title" class="mb-5 mt-5" />
       <component-text :text="invitation_text" />
       <v-row align="start" class="mt-10" justify="center">
-        <invitation-card
+        <icon-section
           :icon="card1.icon"
           :text="card1.text"
           :title="card1.title"
         />
-        <invitation-card
+        <icon-section
           :icon="card2.icon"
           :text="card2.text"
           :title="card2.title"
         />
-        <invitation-card
+        <icon-section
           :icon="card3.icon"
           :text="card3.text"
           :title="card3.title"
         />
       </v-row>
-      <component-title :text="invitation_title2" class=" mt-5" />
-      <component-text :text="invitation_text2" />
     </v-container>
   </div>
 </template>
 
 <script>
-import InvitationCard from '@/components/Home/invitation/InvitationCard';
-import ComponentTitle from '@/components/general/ComponentTitle';
-import ComponentText from '@/components/general/ComponentText';
+import ComponentTitle from '@/components/shared/ComponentTitle';
+import ComponentText from '@/components/shared/ComponentText';
+import IconSection from '@/components/shared/IconSection.vue';
 
 export default {
   name: 'Invitation',
-  components: { ComponentText, ComponentTitle, InvitationCard },
+  components: { ComponentText, ComponentTitle, IconSection },
   data() {
     return {
       invitation_title: 'Obóz Integracyjno-Szkoleniowy "Karpicko"',
@@ -58,10 +56,6 @@ export default {
           'Chwile na Karpicku pozostaną na lata! Najlepsze wspomnienia, których z zazdrością będą wysłuchiwać osoby, które nie zdecydowały się pojechać na obóz. Sięgnij z nami po dozę wrażeń oraz nowych przyjaźni. Nie może Cię zabraknąć!\n',
         icon: 'hourglass_dark.svg',
       },
-      invitation_title2: 'Zapraszamy!',
-      invitation_text2:
-        'Drodzy Studenci Pierwszego Roku! Jest nam szalenie miło zaprosić was do uczestnictwa' +
-        ' w obozie Integracyjno-Szkoleniowym "Karpicko" dla pierwszorocznych studentów Politechniki Poznańskiej, który planowany jest na wrzesień 2021!',
     };
   },
 };

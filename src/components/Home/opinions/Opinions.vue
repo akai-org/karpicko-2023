@@ -41,7 +41,7 @@
 <script>
 import OpinionItem from '@/components/Home/opinions/OpinionItem';
 import OpinionItemSmAndDown from '@/components/Home/opinions/OpinionItemSmAndDown';
-import ComponentTitle from '@/components/general/ComponentTitle';
+import ComponentTitle from '@/components/shared/ComponentTitle';
 export default {
   name: 'Opinions',
   components: { ComponentTitle, OpinionItemSmAndDown, OpinionItem },

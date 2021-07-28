@@ -40,7 +40,7 @@
 
 <script>
 import OrganizerCard from '@/components/Home/partners/OrganizerCard';
-import ComponentTitle from '@/components/general/ComponentTitle';
+import ComponentTitle from '@/components/shared/ComponentTitle';
 import PartnerCard from '@/components/Home/partners/PartnerCard';
 export default {
   name: 'Partners',

@@ -4,15 +4,15 @@
     <v-main>
       <router-view />
     </v-main>
-    <karpicko-footer />
+    <custom-footer />
   </v-app>
 </template>
 
 <style></style>
 <script>
 import Navbar from '@/components/Navbar';
-import KarpickoFooter from '@/components/KarpickoFooter';
+import CustomFooter from './components/CustomFooter.vue';
 export default {
-  components: { KarpickoFooter, Navbar },
+  components: { CustomFooter, Navbar },
 };
 </script>

@@ -15,11 +15,11 @@
             width="100%"
             color="primary"
             class="font-weight-bold display-1"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeND9jAc0E4iZt-7b3h8FkW1GwIwZUlZvtVLPQ30PDH4cOy2w/viewform"
+            :href="link"
             target="_blank"
             col
           >
-            Rejestracja
+            {{ title }}
             <v-icon class="ml-5" size="40" right
               >fas fa-long-arrow-alt-right</v-icon
             >
@@ -33,6 +33,13 @@
 <script>
 export default {
   name: 'Registration',
+  data() {
+    return {
+      link:
+        'https://docs.google.com/forms/d/e/1FAIpQLSeND9jAc0E4iZt-7b3h8FkW1GwIwZUlZvtVLPQ30PDH4cOy2w/viewform',
+      title: 'Rejestracja',
+    };
+  },
 };
 </script>
 

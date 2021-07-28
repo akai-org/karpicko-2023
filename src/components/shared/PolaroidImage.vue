@@ -5,7 +5,9 @@
       :alt="description"
       :aspect-ratio="1 / 1"
     />
-    <p class="body-1 mt-5 font-weight-bold text-uppercase text-h6">{{ description }}</p>
+    <p class="body-1 mt-5 text-uppercase text-h6">
+      {{ description }}
+    </p>
   </div>
 </template>
 

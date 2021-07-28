@@ -110,8 +110,8 @@ export default {
     return {
       appTitle: 'Karpicko 2021',
       drawer: false,
-      navbarColor: 'primary',
-      navbarElevation: 10,
+      navbarColor: 'transparent',
+      navbarElevation: 0,
       main: { title: 'Karpicko 2021', id: '#hero' },
       mainpage: { title: 'Strona główna', url: '#/' },
       items: [

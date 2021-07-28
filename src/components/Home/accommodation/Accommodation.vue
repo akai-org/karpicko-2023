@@ -2,47 +2,35 @@
   <div id="accommodation">
     <v-container fluid>
       <component-title text="Zakwaterowanie" class="mb-10 mt-10" />
-      <v-row justify="center" align="center">
-        <v-col cols="11" lg="8" md="9">
-          <v-row justify="center" align="center">
-            <v-col
-              cols="12"
-              xl="6"
-              lg="6"
-              md="6"
-              sm="10"
-              class="align-content-center"
-            >
-              <h2
-                class="text-sm-h5 text-md-h5 text-lg-h5 text-xl-h5 text-subtitle-1 headline text-center"
-              >
-                Zakwaterowani będziecie w czteroosobowych domkach w Karpicku,
-                niedaleko Jeziora Wolsztyńskiego, nad którym również
-                przygotowane są atrakcje. Dla tych, którzy kochają naturę znajdą
-                się miejsca na rozłożenie kocyka na trawie. Natomiast Ci którzy
-                cenią sobie wygodne miejsce do integracji z nowopoznanymi
-                znajomymi, mogą zrelaksować się w strefie chillu.
-              </h2>
-            </v-col>
-            <v-col cols="12" xl="5" lg="6" md="6" sm="7" offset-xl="1">
-              <polaroid-image
-                src="karpicko_2019_sm.jpg"
-                description="Karpicko 2019"
-              />
-            </v-col>
-          </v-row>
-        </v-col>
-      </v-row>
+      <polaroid-section
+        :text="sections[0].text"
+        :src="sections[0].src"
+        :polaroid_text="sections[0].polaroid_text"
+        :reversed="sections[0].reversed"
+      />
     </v-container>
   </div>
 </template>
 
 <script>
-import ComponentTitle from '@/components/general/ComponentTitle';
-import PolaroidImage from '@/components/general/PolaroidImage';
+import ComponentTitle from '@/components/shared/ComponentTitle';
+import PolaroidSection from '@/components/shared/PolaroidSection';
 export default {
   name: 'Accommodation',
-  components: { ComponentTitle, PolaroidImage },
+  components: { ComponentTitle, PolaroidSection },
+  data() {
+    return {
+      sections: [
+        {
+          text:
+            'Zakwaterowani będziecie w czteroosobowych domkach w Karpicku, niedaleko Jeziora Wolsztyńskiego, nad którym również przygotowane są atrakcje. Dla tych, którzy kochają naturę znajdą się miejsca na rozłożenie kocyka na trawie. Natomiast Ci którzy cenią sobie wygodne miejsce do integracji z nowopoznanymi znajomymi, mogą zrelaksować się w strefie chillu.',
+          src: 'karpicko_2019_sm.jpg',
+          polaroid_text: 'Karpicko 2019',
+          reversed: false,
+        },
+      ],
+    };
+  },
 };
 </script>
 
