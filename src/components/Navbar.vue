@@ -1,6 +1,12 @@
 <template>
   <span>
-    <v-app-bar app :color="navbarColor" dark flat :elevation="navbarElevation">
+    <v-app-bar
+      app
+      :color="currentRouteName ? navbarColor : 'primary'"
+      dark
+      flat
+      :elevation="currentRouteName ? navbarElevation : 50"
+    >
       <v-app-bar-nav-icon
         class="hidden-lg-and-up"
         @click="drawer = !drawer"
@@ -12,7 +18,12 @@
           block
           x-large
           href="#/"
-          @click="() => $vuetify.goTo(main.id)"
+          @click="
+            () => {
+              $vuetify.goTo(0);
+              $vuetify.goTo(main.id);
+            }
+          "
         >
           <v-img
             alt="sspp-name"
@@ -66,26 +77,66 @@
       disable-resize-watcher
     >
       <v-list>
-        <v-list-item @click="$vuetify.goTo(main.id)">
+        <v-list-item
+          @click="
+            {
+              $vuetify.goTo(0);
+              $vuetify.goTo(main.id);
+            }
+          "
+        >
           <div class="d-flex align-center">
-            <v-img
-              alt="Fut-name"
-              contain
-              min-width="10"
-              src="@/assets/other/logo_sspp_white_narrow.png"
-              width="90"
-            />
+            <v-btn
+              text
+              block
+              x-large
+              href="#/"
+              @click="
+                () => {
+                  $vuetify.goTo(0);
+                  $vuetify.goTo(main.id);
+                }
+              "
+            >
+              <v-img
+                alt="Fut-name"
+                contain
+                min-width="10"
+                src="@/assets/other/logo_sspp_white_narrow.png"
+                width="90"
+              />
+            </v-btn>
           </div>
         </v-list-item>
-        <v-list-item
-          v-for="item in items"
-          :key="item.title"
-          @click="$vuetify.goTo(item.id)"
-        >
-          <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
+        <template v-if="currentRouteName == '/'">
+          <v-list-item
+            v-for="item in items"
+            :key="item.title"
+            @click="$vuetify.goTo(item.id)"
+          >
+            <v-list-item-content>
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </template>
+        <template v-else>
+          <v-list-item :href="mainpage.url">
+            <v-list-item-content>
+              <v-list-item-title>
+                {{ mainpage.title }}
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+          <div>
+            <v-btn
+              text
+              class="hidden-md-and-down text-button"
+              elevation="0"
+              >{{
+            }}</v-btn>
+          </div>
+        </template>
+
         <v-list-item v-for="page in pages" :key="page.url" :href="page.url">
           <v-list-item-content>
             <v-list-item-title>
@@ -119,13 +170,10 @@ export default {
         { title: 'Atrakcje', id: '#about' },
         { title: 'Zakwaterowanie', id: '#accommodation' },
         { title: 'Opinie', id: '#opinions' },
-        { title: 'Partnerzy', id: '#partners' },
         { title: 'Kontakt', id: '#contact' },
+        { title: 'Partnerzy', id: '#partners' },
       ],
-      pages: [
-        { title: 'Kadra', url: '#/kadra' },
-        //  { title: 'Regulamin', url: '/rules/Regulamin-Karpicko-2020.pdf' },
-      ],
+      pages: [{ title: 'Kadra', url: '#/kadra' }],
     };
   },
   computed: {
