@@ -31,7 +31,7 @@
         <v-row align="center" justify="center" class="mt-1">
           <v-btn
             download
-            href="/rules/Regulamin_Karpicko_2021.pdf"
+            href="/rules/Regulamin_Karpicko_2021.docx"
             class=" text-button"
             plain
           >
@@ -40,7 +40,7 @@
 
           <v-btn
             download
-            href="/rules/Zasady_bezpieczenstwa.pdf"
+            href="/rules/Zasady_bezpieczenstwa.docx"
             class="text-button"
             plain
           >
@@ -49,7 +49,7 @@
 
           <v-btn
             download
-            href="/rules/Polityka_prywatnosci.pdf"
+            href="/rules/Polityka_prywatnosci.docx"
             class="text-button"
             plain
           >
