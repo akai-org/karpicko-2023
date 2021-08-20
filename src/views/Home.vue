@@ -37,5 +37,10 @@ export default {
     Opinions,
     Info,
   },
+  metaInfo() {
+    return {
+      title: 'Screen Name',
+    };
+  },
 };
 </script>
