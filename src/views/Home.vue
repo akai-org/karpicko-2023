@@ -39,7 +39,8 @@ export default {
   },
   metaInfo() {
     return {
-      title: 'Screen Name',
+      title:
+        'Karpicko 2021 - Obóz Integracyjno-Szkoleniowy Politechniki Poznańskiej',
     };
   },
 };

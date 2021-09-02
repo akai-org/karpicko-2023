@@ -153,7 +153,7 @@ export default {
         {
           name: 'Karolina Ławniczak',
           faculty: 'WIZ',
-          avatar: '',
+          avatar: 'Karolina.jpg',
         },
         {
           name: 'Marta Kocurek',

@@ -65,6 +65,9 @@ export default {
         {
           src: 'fortuna.jpg',
         },
+        {
+          src: 'kontakt_cjo.png',
+        },
       ],
     };
   },
