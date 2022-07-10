@@ -1,7 +1,7 @@
 <template>
   <div id="partners">
     <v-container fluid class="mb-10">
-      <component-title text="Organizatorzy i Partnerzy" class=" mt-10" />
+      <component-title text="Organizatorzy i Partnerzy poprzedniej edycji" class=" mt-10" />
       <v-row class="mt-10" align="start" justify="center" no-gutters>
         <v-col cols="12" lg="10" md="10">
           <v-row class="mt-10" align="start" justify="center" no-gutters>

@@ -2,28 +2,11 @@
   <div id="registration">
     <v-parallax
       dark
-      src="@/assets/invitation/karpicko2019_gracze.jpg"
+      src="@/assets/invitation/karpicko_zaproszenie.png"
       height="350"
     >
       <v-row align="center" justify="center">
         <v-col class="text-center" lg="4" md="5" sm="7" xl="3" cols="12">
-          <v-btn
-            rounded
-            x-large
-            elevation="10"
-            height="70"
-            width="100%"
-            color="primary"
-            class="font-weight-bold display-1"
-            :href="link"
-            target="_blank"
-            col
-          >
-            {{ title }}
-            <v-icon class="ml-5" size="40" right
-              >fas fa-long-arrow-alt-right</v-icon
-            >
-          </v-btn>
         </v-col>
       </v-row>
     </v-parallax>

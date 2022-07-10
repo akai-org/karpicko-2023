@@ -4,7 +4,7 @@
       <v-row align="center" justify="center" class="mt-n12">
         <v-col class="text-center" cols="12">
           <v-img
-            src="@/assets/other/Karpicko_White_Logo_2021.png"
+            src="@/assets/other/Karpicko_White_Logo_2022.png"
             contain
             max-height="400"
           ></v-img>

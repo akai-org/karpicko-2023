@@ -100,7 +100,7 @@ export default {
         {
           src: 'Mikolaj.jpg',
           quote:
-            '"Karpicko to niezwykły czas byłem zarówno uczestnikiem jak i opiekunem. Poznałem tam wielu niesamowitych ludzi"',
+            '"Karpicko to niezwykły czas. Byłem zarówno uczestnikiem jak i opiekunem. Poznałem tam wielu niesamowitych ludzi"',
           name: '- Mikołaj Gemzicki',
         },
         {

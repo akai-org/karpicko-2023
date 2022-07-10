@@ -34,14 +34,14 @@ export default {
   components: { ComponentText, ComponentTitle, IconSection },
   data() {
     return {
-      invitation_title: 'Obóz Integracyjno-Szkoleniowy "Karpicko"',
+      invitation_title: 'OBÓZ INTEGRACYJNO-SZKOLENIOWY PP - KARPICKO 2022',
       invitation_text:
         'Jest to obóz adaptacyjny Politechniki Poznańskiej, który w najlepszy sposób przygotuje Was do wejścia w nowy etap życia - studia. ' +
-        'Wszystko zorganizowane jest przez studentów dla studentów - czyli przez Samorząd Studentów Politechniki Poznańskiej dla nowych studentów.',
+        'Wszystko zorganizowane jest przez studentów dla studentów - przez Samorząd Studentów Politechniki Poznańskiej dla wstępujących w mury naszej Uczelni.',
       card1: {
         title: 'Jedyna taka okazja!',
         text:
-          'Czy wiesz, że na Karpicko możesz zapisać się tylko jeden raz? Na samym obozie będą tylko studenci, którzy po raz pierwszy rekrutują się na naszą politechnikę! Jest to niepowtarzalna okazja by poznać znajomości na lata!',
+          'Czy wiesz, że na obóz możesz zapisać się tylko jeden raz? W Karpicku będą jedynie studenci, którzy po raz pierwszy rekrutują się na naszą Politechnikę! Jest to niepowtarzalna okazja, by zdobyć znajomości na lata!',
         icon: 'stopwatch_dark.svg',
       },
       card2: {
@@ -53,7 +53,7 @@ export default {
       card3: {
         title: 'Niezapomniane chwile',
         text:
-          'Chwile na Karpicku pozostaną na lata! Najlepsze wspomnienia, których z zazdrością będą wysłuchiwać osoby, które nie zdecydowały się pojechać na obóz. Sięgnij z nami po dozę wrażeń oraz nowych przyjaźni. Nie może Cię zabraknąć!\n',
+          'Chwile przeżyte na obozie pozostaną na lata! Najlepsze wspomnienia, których z zazdrością będą wysłuchiwać osoby, które nie zdecydowały się pojechać do Karpicka. Sięgnij z nami po dozę wrażeń oraz nowych przyjaźni. Nie może Cię zabraknąć!',
         icon: 'hourglass_dark.svg',
       },
     };

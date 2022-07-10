@@ -173,7 +173,7 @@ export default {
         { title: 'Kontakt', id: '#contact' },
         { title: 'Partnerzy', id: '#partners' },
       ],
-      pages: [{ title: 'Kadra', url: '#/kadra' }],
+      pages: [],
     };
   },
   computed: {

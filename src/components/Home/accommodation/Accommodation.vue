@@ -23,9 +23,9 @@ export default {
       sections: [
         {
           text:
-            'Zakwaterowani będziecie w czteroosobowych domkach w Karpicku, niedaleko Jeziora Wolsztyńskiego, nad którym również przygotowane są atrakcje. Dla tych, którzy kochają naturę znajdą się miejsca na rozłożenie kocyka na trawie. Natomiast Ci którzy cenią sobie wygodne miejsce do integracji z nowopoznanymi znajomymi, mogą zrelaksować się w strefie chillu.',
+            'Zakwaterowani będziecie w czteroosobowych domkach w Karpicku, niedaleko Jeziora Wolsztyńskiego, które będziemy mieli okazję odwiedzić podczas obozu. Dla tych, którzy kochają naturę, znajdą się miejsca na rozłożenie kocyka na trawie. Natomiast Ci, którzy cenią sobie wygodne miejsce do integracji z nowo poznanymi ludźmi, mogą zrelaksować się w przygotowanej dla Was strefie chillu.',
           src: 'karpicko_2019_sm.jpg',
-          polaroid_text: 'Karpicko 2019',
+          polaroid_text: ' ',
           reversed: false,
         },
       ],

@@ -8,7 +8,7 @@
       <v-row align="center" justify="center">
         <v-col cols="11" lg="7" md="9" class="justify-center text-center">
           <v-btn
-            href="https://forms.gle/7oTmvfcVns338BwH7"
+            href="https://forms.gle/PRmxEa21A4cziC6c8"
             target="_blank"
             x-large
             outlined
@@ -37,7 +37,7 @@ export default {
   data() {
     return {
       contactUs: 'Skontaktuj się z nami',
-      contactByForm: 'Aby się z nami skontaktować użyj poniższego formularza',
+      contactByForm: 'Chcesz się z nami skontaktować? Użyj poniższego formularza!',
     };
   },
 };

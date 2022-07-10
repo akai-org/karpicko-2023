@@ -2,7 +2,7 @@
   <v-app>
     <navbar />
     <v-main>
-      <router-view />
+    <home />
     </v-main>
     <custom-footer />
   </v-app>
@@ -11,8 +11,9 @@
 <style></style>
 <script>
 import Navbar from '@/components/Navbar';
+import Home from '@/views/Home';
 import CustomFooter from './components/CustomFooter.vue';
 export default {
-  components: { CustomFooter, Navbar },
+  components: { CustomFooter, Navbar, Home },
 };
 </script>
