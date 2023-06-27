@@ -48,7 +48,7 @@ export default {
     return {
       opinionList: [
         {
-          src: 'Marianna.jpg',
+          src: 'Joanna_Przybyła.jpg',
           quote:
             '"Karpicko wspominam jako miejsce pełne nowych znajomości, ciągłych wrażeń i\n' +
             ' niezapomnianych chwil. To tam miałam okazję poznać osoby, z którymi do dziś się spotykam i\n' +
@@ -57,7 +57,7 @@ export default {
           name: '- Joanna Przybyła',
         },
         {
-          src: 'Anna.jpg',
+          src: 'Antoni_Zienkiewicz.jpg',
           quote:
             '"Karpicko to super miejsce do rozpoczęcia swojego życia studenckiego. Kadra\n' +
             ' organizująca wyjazd co roku pokazuje jak wiele można osiągnąć i zorganizować wspólna pracą i\n' +
@@ -66,7 +66,7 @@ export default {
           name: '- Antoni Zienkiewicz',
         },
         {
-          src: 'Weronika.jpg',
+          src: 'Nadia_Dur.jpg',
           quote:
             '"Niesamowici ludzie, niezapomniane wrażenia, przyjaźnie na lata- tak\n' +
             ' podsumowałabym swoje Karpicko. Polecam każdemu przeżycie takiego wyjazdu! Będzie co\n' +
@@ -74,7 +74,7 @@ export default {
           name: '- Nadia Dur',
         },
         {
-          src: 'Katarzyna.jpg',
+          src: 'Anna_Stawiarz.jpg',
           quote:
             '"Na początku nie byłam pewna czy chcę jechać na obóz. Dobrze, że nie\n' +
             ' zrezygnowałam, bo wyjazd był jedną z najlepszych decyzji jakie podjęłam! Cudowni ludzie, dużo\n' +
@@ -83,7 +83,7 @@ export default {
           name: '- Anna Stawiarz',
         },
         {
-          src: 'Bartosz.jpg',
+          src: 'Zofia_Pol.jpg',
           quote:
             '"Spędziłam bardzo kreatywnie cały tydzień i nigdy nie było czasu na nudę. Ponadto\n' +
             ' poznałam dużo osób, z którymi mam kontakt do dzisiaj i zawsze dobrze wspominamy nasz czas\n' +
@@ -94,7 +94,7 @@ export default {
           name: '- Zofia Pol',
         },
         {
-          src: 'Ola.jpg',
+          src: 'Karolina_Brauntsch.jpg',
           quote:
             '"Karpicko wspominam jako tydzień przepełniony wydarzeniami. Nigdy w życiu nie\n' +
             ' byłam tak szczęśliwa i zmęczona od ilości atrakcji i wrażeń. Poznałam tam swoich obecnych\n' +
@@ -102,7 +102,7 @@ export default {
           name: '- Karolina Brauntsch',
         },
         {
-          src: 'Mikolaj.jpg',
+          src: 'Patryk_Maciejewski.jpg',
           quote:
             '" O Karpicku usłyszałem, gdy składałem dokumenty na uczelnie. Choć przez chwilę\n' +
             ' wahałem się między ostatnimi dniami w rodzinnym miasteczku a wyjazdem, ostatecznie nie\n' +
