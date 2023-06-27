@@ -4,13 +4,13 @@
       <component-title text="Opinie" class="mb-5 mt-10" />
 
       <v-row justify="center" align="center">
-        <v-col cols="12" lg="7" md="9" class="hidden-sm-and-down">
           <v-carousel
             cycle
             show-arrows-on-hover
             hide-delimiters
             interval="10000"
-            height="400"
+            height="600"
+            class="hidden-sm-and-down"
           >
             <v-carousel-item v-for="(slide, index) in opinionList" :key="index">
               <opinion-item
@@ -21,7 +21,6 @@
               />
             </v-carousel-item>
           </v-carousel>
-        </v-col>
         <v-col cols="12" class="hidden-md-and-up">
           <v-carousel cycle show-arrows-on-hover hide-delimiters height="500">
             <v-carousel-item v-for="(slide, index) in opinionList" :key="index">
@@ -51,75 +50,71 @@ export default {
         {
           src: 'Marianna.jpg',
           quote:
-            '"Wyjazd na Karpicko to jeden z najlepszych sposób ' +
-            'na rozpoczęcie przygody ze studiowaniem! Razem z przyjaciółką ' +
-            'poznałyśmy dzięki temu wiele ciekawych osób, które tak jak my ' +
-            'dopiero zaczynały swoją przygodę z Politechniką Poznańską"',
-          name: '- Marianna Zawal',
+            '"Karpicko wspominam jako miejsce pełne nowych znajomości, ciągłych wrażeń i\n' +
+            ' niezapomnianych chwil. To tam miałam okazję poznać osoby, z którymi do dziś się spotykam i\n' +
+            ' nie wyobrażam sobie życia studenckiego bez nich. Jest to jedyna okazja, aby zacząć życie\n' +
+            ' studenckie przed studiami i przygotować się na to co będzie czekać na nas na studiach."',
+          name: '- Joanna Przybyła',
         },
         {
           src: 'Anna.jpg',
           quote:
-            '"Karpicko? Brzmi niewinnie, jednak raz przeżyte wspomina się latami. ' +
-            'Tak naprawdę słowa nie opiszą atmosfery, która panuje na tym wyjeździe ' +
-            '- to po prostu trzeba przeżyć. Osobiście polecam całym informatycznym ' +
-            'serduszkiem. Karpicko jest nie do podrobienia"',
-          name: '- Anna Prałat',
+            '"Karpicko to super miejsce do rozpoczęcia swojego życia studenckiego. Kadra\n' +
+            ' organizująca wyjazd co roku pokazuje jak wiele można osiągnąć i zorganizować wspólna pracą i\n' +
+            ' przy okazji czerpać z tego ogromną radość. Wyjazd jest w rozsądnej cenie, a atrakcje\n' +
+            ' przygotowane dla uczestników nieraz potrafią zaskakiwać. Serdecznie polecam."',
+          name: '- Antoni Zienkiewicz',
         },
         {
           src: 'Weronika.jpg',
           quote:
-            '"Zapisując się na obóz nie znałam nikogo ale było warto! ' +
-            'Wspaniali ludzie, pełni pozytywnej energii. Świetna atmosfera ' +
-            'i dobra zabawa. Z chęcią przeżyłabym to jeszcze raz!"',
-          name: '- Weronika Jaworska',
+            '"Niesamowici ludzie, niezapomniane wrażenia, przyjaźnie na lata- tak\n' +
+            ' podsumowałabym swoje Karpicko. Polecam każdemu przeżycie takiego wyjazdu! Będzie co\n' +
+            ' wspominać"',
+          name: '- Nadia Dur',
         },
         {
           src: 'Katarzyna.jpg',
           quote:
-            '"Karpicko to nie wyjazd integracyjny, to stan umysłu. Czy polecam? Zdecydowanie! ' +
-            'Czy pojechałabym jeszcze raz? BARDZO CHĘTNIE! ' +
-            'Nie wahajcie się, wysyłajcie zgłoszenia, pakujcie ubrania i pędem na Karpicko!"',
-          name: '- Katarzyna Chmielewska',
+            '"Na początku nie byłam pewna czy chcę jechać na obóz. Dobrze, że nie\n' +
+            ' zrezygnowałam, bo wyjazd był jedną z najlepszych decyzji jakie podjęłam! Cudowni ludzie, dużo\n' +
+            ' przydatnych informacji, niesamowicie spędzony czas, brak możliwości na nudę! Wspaniałe\n' +
+            ' przeżycie!',
+          name: '- Anna Stawiarz',
         },
         {
           src: 'Bartosz.jpg',
           quote:
-            '"Fajny wyjazd, miło spędzony czas i dużo nowo poznanych ' +
-            'osób. Polecam, naprawde warto"',
-          name: '- Bartosz Chazan',
+            '"Spędziłam bardzo kreatywnie cały tydzień i nigdy nie było czasu na nudę. Ponadto\n' +
+            ' poznałam dużo osób, z którymi mam kontakt do dzisiaj i zawsze dobrze wspominamy nasz czas\n' +
+            ' na Karpicku. Na samym obozie miałam także możliwość porozmawiać ze starszymi studentami\n' +
+            ' mojego kierunku i z chęcią odpowiadali na moje wszelkie pytania, dzięki czemu idąc na studia\n' +
+            ' byłam bardziej świadoma czego mogę się spodziewać. Na pewno zapamiętam Karpicko na\n' +
+            ' bardzo długo!!',
+          name: '- Zofia Pol',
         },
         {
           src: 'Ola.jpg',
           quote:
-            '"Karpicko to niesamowite wspomnienia, czas wypełniony po brzegi i ' +
-            'wspaniali ludzie, którzy zostają na długo po zakończeniu obozu. To ' +
-            'pełno emocji, pełno śmiechu, pełno zabawy i pierwsze niezapomniane studenckie przeżycie"',
-          name: '- Aleksandra Baumgart',
+            '"Karpicko wspominam jako tydzień przepełniony wydarzeniami. Nigdy w życiu nie\n' +
+            ' byłam tak szczęśliwa i zmęczona od ilości atrakcji i wrażeń. Poznałam tam swoich obecnych\n' +
+            ' przyjaciół”"',
+          name: '- Karolina Brauntsch',
         },
         {
           src: 'Mikolaj.jpg',
           quote:
-            '"Karpicko to niezwykły czas. Byłem zarówno uczestnikiem jak i opiekunem. Poznałem tam wielu niesamowitych ludzi"',
-          name: '- Mikołaj Gemzicki',
-        },
-        {
-          src: 'Natalia.jpg',
-          quote:
-            '"Naaaajlepszy wyjazd na jakim byłam! Mnóstwo śmiechu, mnóstwo zabawy, mnóstwo nowych ludzi, z którymi nadal się trzymam. Dało to potężnego kopa (również do Samorządowania)  jeszcze przed studiami, mogłam poznać z czym się to je, dlatego wracam na Karpicko już trzeci raz - już jako kadra!"',
-          name: '- Natalia Fedko',
-        },
-        {
-          src: 'Wiktoria.jpg',
-          quote:
-            '"Karpicko dało mi możliwość poznania świetnych ludzi! Z niektórymi trzymam się bliżej do dzisiaj lub współpracujemy razem w ramach Samorządu. Była to na pewno niezapomniana przygoda, sami się o tym przekonacie!"',
-          name: '- Wiktoria Stachowicz',
-        },
-        {
-          src: 'Wojtek.jpg',
-          quote:
-            '"Z perspektywy czasu nie wyobrażam sobie lepszego rozpoczęcia studiów. Karpicko pozwoliło poznać mi niesamowitych ludzi. To nie jest zwykły wyjazd, to jest stan umysłu. Gdybym miał okazję pojechać jeszcze raz jako uczestnik nie zastanawiałbym się w ogóle."',
-          name: '- Wojciech Gindera',
+            '" O Karpicku usłyszałem, gdy składałem dokumenty na uczelnie. Choć przez chwilę\n' +
+            ' wahałem się między ostatnimi dniami w rodzinnym miasteczku a wyjazdem, ostatecznie nie\n' +
+            ' mógłbym być bardziej zadowolony ze swojej decyzji. Karpicko jest idealnym rozpoczęciem\n' +
+            ' przygody studiowania w nowym mieście. Dzięki wcześniejszemu poznaniu studentów mojego\n' +
+            ' kierunku, na uczelni od początku czułem się zadomowiony. Co więcej, poza godzinami nauki\n' +
+            ' nadal widuję się z uczestnikami Karpicka z innych wydziałów nawet dwa lata po wyjeździe i\n' +
+            ' nadal zdarza nam się wspominać wyjazd, integrację i całą zabawę z tym związaną. Na obozie\n' +
+            ' możesz poznać ludzi, dzięki którym dołączysz do swojego wymarzonego koła naukowego lub\n' +
+            ' innej organizacji studenckiej, co całkowicie odmieni tok Twoich studiów i co jakiś czas będziesz\n' +
+            ' sam sobie wdzięczny- za odpowiednią decyzję."',
+          name: '- Patryk Maciejewski',
         },
       ],
     };

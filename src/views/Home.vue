@@ -8,6 +8,7 @@
     <accommodation />
     <opinions />
     <contact />
+    <organizers />
     <partners />
   </div>
 </template>
@@ -23,10 +24,12 @@ import About from '@/components/Home/about/About';
 import Partners from '@/components/Home/partners/Partners';
 import Info from '@/components/Home/info/Info.vue';
 import Opinions from '@/components/Home/opinions/Opinions.vue';
+import Organizers from '@/components/Home/organizers/Organizers.vue';
 
 export default {
   name: 'Home',
   components: {
+    Organizers,
     Partners,
     Contact,
     About,
