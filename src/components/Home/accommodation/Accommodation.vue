@@ -2,22 +2,34 @@
   <div id="accommodation">
     <v-container fluid>
       <component-title text="Ośrodek" class="mb-10 mt-10" />
-      <polaroid-section
-        :text="sections[0].text"
-        :src="sections[0].src"
-        :polaroid_text="sections[0].polaroid_text"
-        :reversed="sections[0].reversed"
-      />
+      <component-text :text="sections[0].text"/>
+<!--      <polaroid-section-->
+<!--        :text="sections[0].text"-->
+<!--        :src="sections[0].src"-->
+<!--        :polaroid_text="sections[0].polaroid_text"-->
+<!--        :reversed="sections[0].reversed"-->
+<!--      />-->
+       <v-row class="mt-16">
+         <v-col
+           class="pa-0"
+           cols="4"
+           v-for="(src, index) in images"
+           :key="index">
+           <v-img
+             :src="require(`@/assets/accommodation/${src}.jpg`)" />
+         </v-col>
+       </v-row>
+
     </v-container>
   </div>
 </template>
 
 <script>
 import ComponentTitle from '@/components/shared/ComponentTitle';
-import PolaroidSection from '@/components/shared/PolaroidSection';
+import ComponentText from '@/components/shared/ComponentText.vue';
 export default {
   name: 'Accommodation',
-  components: { ComponentTitle, PolaroidSection },
+  components: { ComponentText, ComponentTitle },
   data() {
     return {
       sections: [
@@ -33,6 +45,11 @@ export default {
           reversed: false,
         },
       ],
+      images: [
+        'accommodation_1',
+        'accommodation_2',
+        'accommodation_3',
+      ]
     };
   },
 };
