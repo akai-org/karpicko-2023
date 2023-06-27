@@ -1,8 +1,13 @@
 <template>
   <div id="organizers">
-    <v-container fluid class="mb-5">
+    <v-container fluid class="mb-5" >
       <component-title :text="organizers_title" class="mb-5 mt-5" />
       <component-text :text="organizers_text" />
+      <v-row align="center" justify="center">
+        <v-col cols="12" lg="5" md="4" sm="7" xl="4"  order="center">
+          <v-img src="@/assets/other/samorzad.jpg" />
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
