@@ -9,10 +9,13 @@
 <!--        :polaroid_text="sections[0].polaroid_text"-->
 <!--        :reversed="sections[0].reversed"-->
 <!--      />-->
-       <v-row class="mt-16">
+       <v-row class="mt-16" align="center" justify="center">
          <v-col
-           class="pa-0"
-           cols="4"
+           class="pa-0 px-sm-4 px-md-0"
+           cols="12"
+           sm="8"
+           md="6"
+           lg="4"
            v-for="(src, index) in images"
            :key="index">
            <v-img
