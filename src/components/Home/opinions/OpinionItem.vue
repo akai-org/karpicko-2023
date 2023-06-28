@@ -4,8 +4,8 @@
       <v-img
         :aspect-ratio="1 / 1"
         :src="require(`@/assets/opinions/${src}`)"
-        min-width="250"
-        max-width="250"
+        min-width="300"
+        max-width="300"
         id="opinion_avatar"
         class="justify-center"
       />
