@@ -22,7 +22,7 @@
             </v-carousel-item>
           </v-carousel>
         <v-col cols="12" class="hidden-md-and-up">
-          <v-carousel cycle show-arrows-on-hover hide-delimiters height="500">
+          <v-carousel cycle show-arrows-on-hover hide-delimiters height="800">
             <v-carousel-item v-for="(slide, index) in opinionList" :key="index">
               <opinion-item-sm-and-down
                 :src="slide.src"
