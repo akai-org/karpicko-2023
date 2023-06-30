@@ -8,7 +8,7 @@
             cycle
             show-arrows-on-hover
             hide-delimiters
-            interval="10000"
+            interval="20000"
             height="600"
             class="hidden-sm-and-down"
           >
