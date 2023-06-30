@@ -14,7 +14,7 @@
       cols="6"
       class="d-flex justify-center text-center align-center flex-column"
     >
-      <blockquote class="blockquote text-h5 black--text">
+      <blockquote class="blockquote text-h5 black--text opinion_text">
         {{ quote }}
       </blockquote>
       <p class="text-right align-baseline grey--text">{{ name }}</p>
@@ -36,5 +36,12 @@ export default {
 <style scoped>
 #opinion_avatar {
   border-radius: 50%;
+}
+
+.opinion_text {
+  @media screen and (max-width: 1264px) {
+    line-height: 1.5rem !important;
+    font-size: 0.9rem !important;
+  }
 }
 </style>
