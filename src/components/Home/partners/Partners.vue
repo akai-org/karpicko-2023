@@ -21,16 +21,10 @@
       <v-row class="mt-10" align="start" justify="center" no-gutters>
         <v-col cols="12" lg="10" md="10">
           <v-row class="mt-10" align="start" justify="center" no-gutters>
-            <v-col
-              cols="6"
-              lg="2"
-              md="3"
-              sm="4"
-              v-for="(item, index) in partnerList"
-              :key="index"
-            >
-              <partner-card :src="item.src" />
-            </v-col>
+
+              <partner-card
+                v-for="(item, index) in partnerList"
+                :key="index" :src="item.src" />
           </v-row>
         </v-col>
       </v-row>
@@ -57,16 +51,28 @@ export default {
       ],
       partnerList: [
         {
-          src: 'pils.png',
+          src: 'logo_pils.png',
         },
         {
-          src: 'fajowo.png',
+          src: 'dirtydaniels-logo.png',
         },
         {
-          src: 'fortuna.jpg',
+          src: 'kultowa_logo.png',
         },
         {
-          src: 'kontakt_cjo.png',
+          src: 'browar_fortuna_pieczec.png',
+        },
+        {
+          src: 'logofaje_czarne.png',
+        },
+        {
+          src: 'AKAI.svg',
+        },
+        {
+          src: 'silent_king.png',
+        },
+        {
+          src: 'smsapi_color_darklabel.png',
         },
       ],
     };

@@ -33,24 +33,26 @@ export default {
   name: 'Info',
   data() {
     return {
-      info_title: 'Zapraszamy!',
+      info_title: 'Nie może cię zabraknąć! ',
       info_text:
-        'Drodzy Studenci Pierwszego Roku! Jest nam szalenie miło zaprosić Was do uczestnictwa w Obozie Integracyjno-Szkoleniowym PP - Karpicko 2022 dla pierwszorocznych studentów Politechniki Poznańskiej, który planowany jest na wrzesień 2022!',
+        'Drodzy Studenci Pierwszego Roku! Jest nam szalenie miło zaprosić Was do uczestnictwa w\n' +
+        ' Obozie Integracyjno-Szkoleniowym Politechniki Poznańskiej- Karpicko 2023 dla\n' +
+        ' pierwszorocznych studentów, który planowany jest na wrzesień 2023!',
       card1: {
         title: 'Kiedy?',
-        text: 'Od 5 do 10 września 2022 r.',
+        text: 'Od 4 do 9 września 2023 roku',
         icon: 'icon_calendar_dark.svg',
       },
       card2: {
         title: 'Gdzie?',
         text:
-          'Wkrótce ogłosimy miejsce naszego tegorocznego obozu!',
+          'W Ośrodku Wypoczynkowym "Jelonek" w Karpicku niedaleko Wolsztyna',
         icon: 'map-location_dark.svg',
       },
       card3: {
         title: 'Dlaczego?',
         text:
-          'Ten obóz to najlepszy sposób na rozpoczęcie studenckiej przygody!',
+          'Karpicko to najlepszy sposób na rozpoczęcie studenckiej przygody!',
         icon: 'info_dark.svg',
       },
     };

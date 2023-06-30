@@ -8,7 +8,7 @@ export default {
   metaInfo() {
     return {
       title:
-        'Karpicko 2021 - Obóz Integracyjno-Szkoleniowy Politechniki Poznańskiej',
+        'Karpicko 2023 - Obóz Integracyjno-Szkoleniowy Politechniki Poznańskiej',
     };
   },
 };

@@ -8,7 +8,7 @@
       <v-row align="center" justify="center">
         <v-col cols="11" lg="7" md="9" class="justify-center text-center">
           <v-btn
-            href="https://forms.gle/PRmxEa21A4cziC6c8"
+            href="https://forms.gle/uHbgVBcpVF19qswr5"
             target="_blank"
             x-large
             outlined

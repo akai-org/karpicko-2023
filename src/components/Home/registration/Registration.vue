@@ -2,7 +2,7 @@
   <div id="registration">
     <v-parallax
       dark
-      src="@/assets/invitation/karpicko_zaproszenie.png"
+      src="@/assets/2.png"
       height="350"
     >
       <v-row align="center" justify="center">

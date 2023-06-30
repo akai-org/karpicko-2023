@@ -34,26 +34,33 @@ export default {
   components: { ComponentText, ComponentTitle, IconSection },
   data() {
     return {
-      invitation_title: 'OBÓZ INTEGRACYJNO-SZKOLENIOWY PP - KARPICKO 2022',
+      invitation_title: 'OBÓZ INTEGRACYJNO-SZKOLENIOWY PP - KARPICKO 2023',
       invitation_text:
-        'Jest to obóz adaptacyjny Politechniki Poznańskiej, który w najlepszy sposób przygotuje Was do wejścia w nowy etap życia - studia. ' +
-        'Wszystko zorganizowane jest przez studentów dla studentów - przez Samorząd Studentów Politechniki Poznańskiej dla wstępujących w mury naszej Uczelni.',
+        `To obóz adaptacyjny Politechniki Poznańskiej, który w najlepszy sposób przygotuje Cię do
+        nowego etapu w Twoim życiu- studiów. Podczas Karpicka zapewnimy Ci prawdziwie
+        studencką atmosferę z mnóstwem zabawy i aktywności, oprócz tego będziesz mieć okazję
+        zdobyć niezbędną wiedzę dla przyszłego studenta naszej uczelni.`,
       card1: {
         title: 'Jedyna taka okazja!',
         text:
-          'Czy wiesz, że na obóz możesz zapisać się tylko jeden raz? W Karpicku będą jedynie studenci, którzy po raz pierwszy rekrutują się na naszą Politechnikę! Jest to niepowtarzalna okazja, by zdobyć znajomości na lata!',
+          'Czy wiesz, że na nasz obóz możesz zapisać się tylko raz? Na Karpicko mogą pojechać\n' +
+          ' jedynie studenci, którzy po raz pierwszy rekrutują się na Politechnikę Poznańską!',
         icon: 'stopwatch_dark.svg',
       },
       card2: {
         title: 'Nowe znajomości',
         text:
-          'Będziecie mieli możliwość poznać zarówno innych pierwszorocznych studentów, którzy tak jak Wy po raz pierwszy przekraczają mury Uczelni, ale także starszych kolegów z Samorządu Studentów, którzy wprowadzą Was w tajniki życia studenckiego. ',
+          'Nie masz z kim jechać? Nic nie stoi na przeszkodzie. To właśnie tutaj poznasz masę nowych\n' +
+          ' znajomych, którzy tak jak Ty po raz pierwszy przekraczają mury Uczelni, a także starszych\n' +
+          ' kolegów z Samorządu Studentów.',
         icon: 'users_dark.svg',
       },
       card3: {
         title: 'Niezapomniane chwile',
         text:
-          'Chwile przeżyte na obozie pozostaną na lata! Najlepsze wspomnienia, których z zazdrością będą wysłuchiwać osoby, które nie zdecydowały się pojechać do Karpicka. Sięgnij z nami po dozę wrażeń oraz nowych przyjaźni. Nie może Cię zabraknąć!',
+          'Chwile przeżyte na obozie na długo pozostaną w Twojej pamięci! Wspaniałe wspomnienia,\n' +
+          ' których z zazdrością będą wysłuchiwać osoby, które nie zdecydowały się pojechać. Sięgnij z\n' +
+          ' nami po dozę wrażeń oraz nowych przyjaźni.',
         icon: 'hourglass_dark.svg',
       },
     };
