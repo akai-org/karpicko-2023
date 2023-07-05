@@ -1,30 +1,51 @@
 <template>
   <div id="hero">
-    <v-parallax dark src="@/assets/1.png" height="750" style="top:2px;">
-      <v-row align="center" justify="center" class="mt-n12">
-        <v-col class="text-center" cols="12">
-          <v-img
+    <v-img
+      src="@/assets/background_2023.png"
+      cover
+      height="750"
+      class="main-image"
+    >
+      <div class="background"></div>
+
+      <v-container fluid>
+        <v-row>
+          <img
+            v-rellax="{ speed: -5 }"
+            width="400"
+            style="z-index:200; position:relative; margin-left: auto; margin-right: auto"
             src="@/assets/other/Karpicko_White_Logo_2023.png"
-            contain
-            max-height="400"
-          ></v-img>
-          <h2 class="display-0">
-            Zapisy rozpoczęte!
-          </h2>
-        </v-col>
-      </v-row>
-    </v-parallax>
+            alt="dupa"
+          />
+        </v-row>
+      </v-container>
+    </v-img>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HomeHero',
+  name: 'HomeHero'
 };
 </script>
 
 <style scoped>
 #hero {
   margin-top: -80px;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.main-image {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
