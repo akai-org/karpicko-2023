@@ -28,7 +28,50 @@
             sm="7"
             :offset-lg="reversed ? 0 : 1"
           >
-            <polaroid-image :src="src" :description="polaroid_text" />
+            <v-carousel
+              cycle
+              show-arrows-on-hover
+              hide-delimiters
+              interval="20000"
+              height="300"
+              class="hidden-sm-and-down"
+            >
+              <v-carousel-item v-for="(src, index) in srcs" :key="index">
+                <v-row>
+                  <v-col cols="12">
+                    <v-img
+                      max-width="400"
+                      min-width="400"
+                      height="300"
+                      :src="require(`@/assets/${src}`)"
+                      :aspect-ratio="1 / 1"
+                    ></v-img>
+                  </v-col>
+                </v-row>
+              </v-carousel-item>
+            </v-carousel>
+            <v-carousel
+              cycle
+              show-arrows-on-hover
+              hide-delimiters
+              interval="20000"
+              height="300"
+              class="hidden-md-and-up"
+            >
+              <v-carousel-item v-for="(src, index) in srcs" :key="index">
+                <v-row>
+                  <v-col cols="12">
+                    <v-img
+                      max-width="450"
+                      min-width="400"
+                      height="300"
+                      :src="require(`@/assets/${src}`)"
+                      :aspect-ratio="1 / 1"
+                    ></v-img>
+                  </v-col>
+                </v-row>
+              </v-carousel-item>
+            </v-carousel>
           </v-col>
         </v-row>
       </v-col>
@@ -37,17 +80,15 @@
 </template>
 
 <script>
-import PolaroidImage from '@/components/shared/PolaroidImage';
-
 export default {
-  name: 'PoloaridSection',
-  components: { PolaroidImage },
+  name: 'PolaroidSection',
+  components: {},
   props: {
     text: String,
-    src: String,
+    srcs: Array,
     polaroid_text: String,
-    reversed: { type: Boolean, default: false },
-  },
+    reversed: { type: Boolean, default: false }
+  }
 };
 </script>
 
