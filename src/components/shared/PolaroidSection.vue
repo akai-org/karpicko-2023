@@ -44,7 +44,7 @@
                       min-width="400"
                       height="300"
                       :src="require(`@/assets/${src}`)"
-                      :aspect-ratio="1 / 1"
+                      :aspect-ratio="1"
                     ></v-img>
                   </v-col>
                 </v-row>
@@ -66,7 +66,7 @@
                       min-width="400"
                       height="300"
                       :src="require(`@/assets/${src}`)"
-                      :aspect-ratio="1 / 1"
+                      :aspect-ratio="1"
                     ></v-img>
                   </v-col>
                 </v-row>
