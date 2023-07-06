@@ -2,13 +2,38 @@
   <div id="registration">
     <v-parallax
       dark
-      src="@/assets/2.png"
+      class="d-none d-xl-flex"
+      src="@/assets/background_2023.png"
       height="350"
     >
-      <v-row align="center" justify="center">
-        <v-col class="text-center" lg="4" md="5" sm="7" xl="3" cols="12">
-        </v-col>
-      </v-row>
+    </v-parallax>
+    <v-parallax
+      dark
+      class="d-none d-lg-flex d-xl-none"
+      src="@/assets/background_2023_lg.png"
+      height="350"
+    >
+    </v-parallax>
+    <v-parallax
+      dark
+      class="d-none d-md-flex d-xl-none d-lg-none"
+      src="@/assets/background_2023_md.png"
+      height="350"
+    >
+    </v-parallax>
+    <v-parallax
+      dark
+      class="d-none d-sm-flex d-md-none d-xl-none d-lg-none"
+      src="@/assets/background_2023_sm.png"
+      height="350"
+    >
+    </v-parallax>
+    <v-parallax
+      dark
+      class="d-flex d-sm-none d-md-none d-xl-none d-lg-none"
+      src="@/assets/background_2023_xs.png"
+      height="350"
+    >
     </v-parallax>
   </div>
 </template>

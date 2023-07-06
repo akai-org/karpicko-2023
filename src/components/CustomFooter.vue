@@ -40,7 +40,7 @@ export default {
     icons: [
       {
         fa: 'fab fa-facebook',
-        url: 'https://fb.me/e/1Hy1bZPjM',
+        url: 'https://www.facebook.com/events/172695189115856',
       },
       {
         fa: 'fab fa-instagram',
