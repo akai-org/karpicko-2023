@@ -15,7 +15,7 @@
             width="400"
             style="z-index:200; position:relative; margin-left: auto; margin-right: auto"
             src="@/assets/other/Karpicko_White_Logo_2023.png"
-            alt="dupa"
+            alt="karpicko logo"
           />
         </v-row>
       </v-container>
